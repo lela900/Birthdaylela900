@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+   <ImageView
+       android:src = "@drawable/birthday"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerCrop"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true" />
+
+
+
+    <TextView android:id="@+id/words_text_view"
+        android:text="Happy Birthday, lela900!"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize = "25sp"
+        android:textColor = "#01579B"
+        android:background="#F8BBD0"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView android:id="@+id/sender_text_view"
+        android:text="From, Hailey"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize = "30sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor = "#01579B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
